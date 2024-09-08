@@ -37,15 +37,21 @@ This is a Simple Weather App that shows the current weather of some cities in In
    ```
 
 4. Start the Project:
+
    - For IOS:
+
      ```bash
      npx expo start --ios
      ```
+
    - For Android:
+
      ```bash
      npx expo start --android
      ```
+
    - For Both IOS/Android:
+
      ```bash
      npx expo start
      ```
