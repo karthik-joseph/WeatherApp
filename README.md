@@ -1,4 +1,4 @@
-# Welcome A simple Weather App 👋
+# A Simple Weather App 👋
 
 This is a Simple Weather App that shows the current weather of some cities in India.
 
