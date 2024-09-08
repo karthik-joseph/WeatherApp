@@ -26,7 +26,29 @@ This is a Simple Weather App that shows the current weather of some cities in In
 
 2. Navigate to the project directory:
 
+   ```bash
+   cd WeatherApp
+   ```
+
 3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the Project:
+   - For IOS:
+     ```bash
+     npx expo start --ios
+     ```
+   - For Android:
+     ```bash
+     npx expo start --android
+     ```
+   - For Both IOS/Android:
+     ```bash
+     npx expo start
+     ```
 
 ### Running the App
 
@@ -38,14 +60,15 @@ This is a Simple Weather App that shows the current weather of some cities in In
 ### Features
 
 - Current Weather: Displays the current temperature, humidity, wind speed, and weather icon for selected cities in India.
-- Search: Allows users to search for different cities to view their weather information.
+- Search: Allows users to search for different cities according to the weather list and view their weather information.[You can include Your city name in the cites Array]
+- Notification: A static Notification tab is present.
 
 ### API
 
 This app uses the OpenWeatherMap API to fetch weather data.
 
 - You can find their API documentation here: [Open Weather API](https://openweathermap.org/api)
-- Ensure that you replace the placeholder API key with your actual API key in the application code.
+- Ensure that you replace the placeholder API key with your actual API key in the application code.[Create you secrete key from the open Weather API]
 
 ### Error Handling
 
@@ -54,6 +77,16 @@ The application incorporates error handling for the following:
 - API Errors: Displays an error message if there are issues connecting to the OpenWeatherMap API (e.g., invalid API key, network problems).
 - Location Errors: Provides feedback if the entered city is invalid or if the app cannot determine the user's location.
 - Data Handling: Implements checks to handle cases where the API response data is incomplete or formatted incorrectly.
+
+### Functionality to Implement
+
+- It does not have a skelton Loading functionality
+- It does not have a refresh functionality
+- It does not have a functionality to save the searched cities
+- It does not have a functionality to view the searched cities
+- It does not have a functionality to delete the searched cities
+- It does not have a functionality to view the searched cities in a list view
+- It does not have a functionality to view the searched cities in a map view
 
 ### Built With
 
